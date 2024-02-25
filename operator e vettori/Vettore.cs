@@ -64,7 +64,7 @@ namespace operator_e_vettori
         }
         public static Vettore operator /(Vettore v1, int a)
         {
-            return new Vettore(v1.X / a, v1.Y / a);
+            return new Vettore(v1.X * (1/a), v1.Y *(1/ a));
         }
         public static Vettore operator +(Vettore v1)
         {
